@@ -1,0 +1,43 @@
+<!-- A board game  -->
+<Game>
+  <Name>Flashpoint</Name>
+  <Players>2-6</Players>
+  <Ages>10+</Ages>
+</Game>
+
+<!-- A VideoGame -->
+<Game>
+  <Name>Guacamelee</Name>
+  <Console>Multi console</Console>
+  <Controller isRequired="true" />
+  <Publisher>DrinkBox Studios</Publisher>
+</Game>
+
+
+<Games xmlns:board="http://www.sierisimo.net/boardgames"
+    xmlns:video="http://wwww.sierisimo.com/videogames">
+  <board:Game>
+    <board:Name>Flashpoint</board:Name>
+    <board:Players>2-6</board:Players>
+    <board:Ages>10+</board:Ages>
+  </board:Game>
+
+  <video:Game>
+    <video:Name>Guacamelee</video:Name>
+    <video:Console>Multi console</video:Console>
+    <video:Controller isRequired="true" />
+    <video:Publisher>DrinkBox Studios</video:Publisher>
+  </video:Game>
+</Games>
+
+
+
+<Person xmlns:usa="http://usa.gob/"
+  xmlns:mexico="http://mexico.mx">
+  <Name
+    usa:first="George"
+    mexico:first="Jorge"
+    last="Perez"
+    usa:surname="N/A"
+    mexico:surname="Valencia"/>
+</Person>
